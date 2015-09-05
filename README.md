@@ -1,0 +1,2 @@
+# gotests
+Teaching myself go
