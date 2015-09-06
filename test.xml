@@ -1,0 +1,4 @@
+<xml>
+  <foo>FOO</foo>
+  <ns:foo>BAR</ns:foo>
+</xml>
