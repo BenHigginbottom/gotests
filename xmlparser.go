@@ -13,8 +13,9 @@ type XML struct {
 
 
 func main() {
+	x := XML{}
 	xmlFile := os.Open("/home/ben/Media/Code/go/gotests/test.xml")
-	xmldata, _ := ioutil.ReadAll(xmlFile)
+	xmlData, _ := ioutil.ReadAll(xmlFile)
 	
 	xml.Unmarshal(xmlData, x)
 	fmt.Printf("foo: %s\n", x.Foo)
